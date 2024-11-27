@@ -1,0 +1,17 @@
+com\chess\stockfish\StockfishConnector.class
+com\chess\images\ChessImage.class
+com\chess\main\MoveStorage.class
+com\chess\main\GameSaver.class
+com\chess\engines\Tree.class
+module-info.class
+com\chess\engines\ChessEngine.class
+com\chess\board\ChessBoard$Player.class
+com\chess\window\ChessWindow.class
+com\chess\images\ChessPiece.class
+com\chess\board\ChessBoard.class
+com\chess\engines\Node.class
+com\chess\engines\MonteCarlo.class
+com\chess\main\ChessGame.class
+com\chess\events\GameEndListener.class
+com\chess\window\MainWindow.class
+com\chess\main\Main.class

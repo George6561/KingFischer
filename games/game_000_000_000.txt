@@ -1,0 +1,9 @@
+1. e4 f5
+2. exf5 g6
+3. fxg6 Bg7
+4. gxh7 d6
+5. hxg8+ Kd7
+6. Qg4+ e6
+7. Qxe6+ Kc6
+8. Qc4+ Kd7
+9. Qe6# 
