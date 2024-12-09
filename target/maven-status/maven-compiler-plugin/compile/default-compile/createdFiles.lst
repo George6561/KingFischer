@@ -9,4 +9,3 @@ com\chess\stockfish\Main.class
 com\chess\stockfish\ChessBoard$Player.class
 com\chess\stockfish\ChessBoard.class
 com\chess\window\MainWindow.class
-com\chess\stockfish\MoveStorage.class
