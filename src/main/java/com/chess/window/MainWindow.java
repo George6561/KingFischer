@@ -1,8 +1,6 @@
 package com.chess.window;
 
-import com.chess.engines.MonteCarlo;
-import com.chess.events.GameEndListener;
-import com.chess.main.ChessGame;
+import com.chess.stockfish.ChessGame;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -90,15 +88,17 @@ public class MainWindow extends Application {
         // Initialize the main container layout
         mainLayout = new BorderPane();
         mainLayout.setStyle("-fx-background-color: rgb(47, 9, 5);");
+        primaryStage.setWidth(564 + 14); 
+        primaryStage.setHeight(564 + 39);
+        primaryStage.setResizable(false);
 
         // Set up and display the first chess game
-        primaryStage.setMaximized(true);
         startNewGame();
 
         // Create the main scene and configure the primary stage
         Scene scene = new Scene(mainLayout, 600, 600);
         primaryStage.setScene(scene);
-        primaryStage.setTitle("Chess Game Manager");
+        primaryStage.setTitle("King Fischer (AI Chess Engine)");
         primaryStage.show();
     }
 
@@ -124,15 +124,6 @@ public class MainWindow extends Application {
                 // Initialize the ChessGame with the new ChessWindow
                 currentChessGame = new ChessGame(currentChessWindow);
 
-                // Add a listener to handle game-end events
-                currentChessGame.addGameEndListener(monteCarlo -> {
-                    System.out.println("The game is over, starting a new game...");
-
-                    Platform.runLater(() -> {
-                        currentChessWindow.closeWindow(); // Close the current window
-                        startNewGame(); // Start a new game
-                    });
-                });
 
                 // Start the chess game in a separate thread
                 Thread gameThread = new Thread(() -> {
@@ -149,7 +140,7 @@ public class MainWindow extends Application {
 
                 // Wrap the chessboard UI in a layout with padding
                 BorderPane chessBoardWrapper = new BorderPane();
-                chessBoardWrapper.setPadding(new Insets(10, 0, 0, 10));
+                chessBoardWrapper.setPadding(new Insets(0, 0, 0, 0));
                 chessBoardWrapper.setCenter(currentChessWindow.getScene().getRoot());
 
                 // Set the wrapped chessboard as the center of the main layout

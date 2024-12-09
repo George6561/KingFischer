@@ -1,6 +1,6 @@
 package com.chess.window;
 
-import com.chess.board.ChessBoard;
+import com.chess.stockfish.ChessBoard;
 import com.chess.images.ChessPiece;
 import javafx.application.Application;
 import javafx.scene.Scene;

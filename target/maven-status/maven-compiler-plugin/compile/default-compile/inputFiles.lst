@@ -1,27 +1,11 @@
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\module-info.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\main\GameSaver.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\board\ChessBoard.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\data\GameDataManager.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\stockfish\StockfishConnector.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\engines\Node.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\ml\NeuralNetworkInterface.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\visualization\TreeVisualizer.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\main\MoveStorage.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\engines\MonteCarlo.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\window\MainWindow.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\engines\ChessEngine.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\images\ChessPiece.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\visualization\HeatmapGenerator.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\montecarlo\MonteCarloVisualiser.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\main\Main.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\main\ChessGame.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\data\MatrixStorage.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\events\GameEndListener.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\montecarlo\MonteCarloSimulator.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\data\DataExporter.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\montecarlo\UCTSelector.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\ml\Evaluator.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\visualization\MatrixImageGenerator.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\window\ChessWindow.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\images\ChessImage.java
-C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main\src\main\java\com\chess\engines\Tree.java
+C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main - Copy\src\main\java\com\chess\images\ChessPiece.java
+C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main - Copy\src\main\java\com\chess\stockfish\Main.java
+C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main - Copy\src\main\java\com\chess\window\ChessWindow.java
+C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main - Copy\src\main\java\com\chess\images\ChessImage.java
+C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main - Copy\src\main\java\com\chess\stockfish\ChessGame.java
+C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main - Copy\src\main\java\module-info.java
+C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main - Copy\src\main\java\com\chess\stockfish\ChessBoard.java
+C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main - Copy\src\main\java\com\chess\stockfish\ChessEngine.java
+C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main - Copy\src\main\java\com\chess\stockfish\StockfishConnector.java
+C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main - Copy\src\main\java\com\chess\stockfish\MoveStorage.java
+C:\Users\georg\Desktop\Programming\Java\Chess-Learning-main - Copy\src\main\java\com\chess\window\MainWindow.java

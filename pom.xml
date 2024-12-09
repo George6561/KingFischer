@@ -14,8 +14,9 @@
         <maven.compiler.source>23</maven.compiler.source>
         <maven.compiler.target>23</maven.compiler.target>
         
-        <!-- The name of the main class to call -->
-        <exec.mainClass>com.chess.main.Main</exec.mainClass> 
+        <!-- MAIN CLASS CALL -->
+        <exec.mainClass>com.chess.stockfish.Main</exec.mainClass>
+        <mainClass>com.chess.stockfish.Main</mainClass>  
     </properties>
 
     <build>
