@@ -1,15 +1,27 @@
-# Chess-Engine
+Features
+Core Functionality
+Game Mechanics:
 
-![Project Status](https://img.shields.io/badge/Status-Active-brightgreen.svg) ![Java](https://img.shields.io/badge/Java-17%2B-orange.svg) ![License](https://img.shields.io/badge/License-MIT-blue.svg)
+Interactive chessboard implemented using ChessBoard and ChessWindow classes.
+Move generation and validation using Stockfish.
+Game states tracked and displayed in real-time.
+Support for special moves like castling and pawn promotion.
+Stockfish Integration:
 
-## Overview
-Chess-Engine is a fully-fledged chess application powered by the Stockfish engine and Monte Carlo simulations for evaluating and analyzing chess positions. Developed as part of a university capstone project, this engine aims to provide both strategic depth and robust move analysis, suitable for research and gameplay.
+Communicates with the Stockfish engine via the StockfishConnector class.
+Retrieves optimal moves, position evaluations, and legal moves.
+Adjustable analysis depth and move time for flexible gameplay and analysis.
+Move Storage and Analysis:
 
-## Features
-- **Stockfish Integration**: Utilizes the Stockfish engine to analyze and make optimal moves.
-- **Monte Carlo Simulations**: Performs simulations to assess positions and validate moves.
-- **JavaFX User Interface**: Interactive chessboard interface for users to play against the engine.
-- **Move Evaluation**: Real-time move evaluations are displayed after each move.
-- **Javadoc Documentation**: Comprehensive documentation for all classes and methods for easy navigation.
-- **GitHub Pages Integration**: Javadocs hosted online for ease of access.
+Tracks move history using the MoveStorage class.
+Evaluates game states and stores position scores.
+User Interface
+JavaFX-Based GUI:
 
+Visual representation of the chessboard and pieces in ChessWindow and MainWindow.
+Drag-and-drop functionality for piece movement.
+Dynamically updates the board and provides user feedback.
+Scalable Design:
+
+Modular structure for easy extensibility.
+Separation of concerns between game logic (ChessGame), UI (ChessWindow), and engine communication (StockfishConnector).
